@@ -7,6 +7,8 @@ import pathlib
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 import smtplib
+import requests
+from urllib.parse import urlencode
 
 import feedparser
 from dateutil import parser as dateparser
@@ -34,26 +36,44 @@ DATA_JSON = pathlib.Path("data/digest.json")
 
 
 def build_query():
-    cats = "+OR+".join([f"cat:{c}" for c in CATEGORIES])
+    """
+    Build a single search_query string for arXiv.
+    We keep quotes for multi-word phrases but let urlencode() percent-encode them.
+    """
+    cats = " OR ".join([f"cat:{c}" for c in CATEGORIES])
 
-    def q(s):  # quote multi-word
+    def phrase(s):
         return f'"{s}"' if " " in s else s
 
-    kw_block = "+OR+".join([q(k) for k in KEYWORDS])
-    meth_block = "+OR+".join([q(m) for m in METHODS])
-    return f"({cats})+AND+all:({kw_block})+AND+all:({meth_block})"
+    kw_block = " OR ".join(phrase(k) for k in KEYWORDS)
+    meth_block = " OR ".join(phrase(m) for m in METHODS)
+
+    # Require: (categories) AND all:(keywords) AND all:(methods)
+    query = f"({cats}) AND all:({kw_block}) AND all:({meth_block})"
+    return query
 
 
 def fetch_arxiv_entries(query, max_results=200, start=0):
+    """
+    Use requests to handle URL encoding and headers; feedparser parses the returned XML.
+    """
     base = "https://export.arxiv.org/api/query"
-    url = (
-        f"{base}?search_query={query}"
-        f"&start={start}&max_results={max_results}"
-        f"&sortBy=submittedDate&sortOrder=descending"
-    )
-    time.sleep(1.0)  # be polite
-    feed = feedparser.parse(url)
-    return feed.entries
+    params = {
+        "search_query": query,          # requests/urlencode will encode spaces/quotes safely
+        "start": start,
+        "max_results": max_results,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+    }
+    headers = {
+        # arXiv asks clients to identify themselves
+        "User-Agent": "arxiv-digest/1.0 (mailto:your_email@example.com)"
+    }
+    resp = requests.get(base, params=params, headers=headers, timeout=30)
+    resp.raise_for_status()
+    # feedparser accepts a text/bytes string directly
+    parsed = feedparser.parse(resp.text)
+    return parsed.entries
 
 
 def normalize_text(*parts):
