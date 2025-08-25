@@ -1,10 +1,38 @@
 # Weekly arXiv Digest (ML × Computational Biology)
 
-*Updated: August 21, 2025 UTC*
+*Updated: August 25, 2025 UTC*
 
 > Filters: categories **q-bio.BM, q-bio.QM, cs.LG, stat.ML**, window **last 7 days**, keywords ∩ methods.
 
 Tip: Edit `arxiv_digest.py` to change keywords/categories.
+
+- **Guiding Diffusion Models with Reinforcement Learning for Stable Molecule Generation**  
+  Zhijian Zhou, Junyi An, Zongkai Liu, Yunfei Shi, Xuan Zhang, Fenglei Cao, Chao Qu, Yuan Qi — *cs.LG*, 2025-08-22  
+  [abs](http://arxiv.org/abs/2508.16521v1) · [pdf](http://arxiv.org/pdf/2508.16521v1.pdf)  
+
+- **Post Hoc Regression Refinement via Pairwise Rankings**  
+  Kevin Tirta Wijaya, Michael Sun, Minghao Guo, Hans-Peter Seidel, Wojciech Matusik, Vahid Babaei — *cs.LG*, 2025-08-22  
+  [abs](http://arxiv.org/abs/2508.16495v1) · [pdf](http://arxiv.org/pdf/2508.16495v1.pdf)  
+
+- **OwkinZero: Accelerating Biological Discovery with AI**  
+  Nathan Bigaud, Vincent Cabeli, Meltem Gurel, Arthur Pignet, John Klein, Gilles Wainrib, Eric Durand — *cs.LG*, 2025-08-22  
+  [abs](http://arxiv.org/abs/2508.16315v1) · [pdf](http://arxiv.org/pdf/2508.16315v1.pdf)  
+
+- **Amortized In-Context Mixed Effect Transformer Models: A Zero-Shot Approach for Pharmacokinetics**  
+  César Ali Ojeda Marin, Wilhelm Huisinga, Purity Kavwele, Niklas Hartung — *cs.LG*, 2025-08-21  
+  [abs](http://arxiv.org/abs/2508.15659v1) · [pdf](http://arxiv.org/pdf/2508.15659v1.pdf)  
+
+- **A Robust BERT-Based Deep Learning Model for Automated Cancer Type Extraction from Unstructured Pathology Reports**  
+  Minh Tran, Jeffery C. Chan, Min Li Huang, Maya Kansara, John P. Grady, Christine E. Napier, Subotheni Thavaneswaran, Mandy L. Ballinger, David M. Thomas, Frank P. Lin — *cs.LG*, 2025-08-21  
+  [abs](http://arxiv.org/abs/2508.15149v1) · [pdf](http://arxiv.org/pdf/2508.15149v1.pdf)  
+
+- **Equi-mRNA: Protein Translation Equivariant Encoding for mRNA Language Models**  
+  Mehdi Yazdani-Jahromi, Ali Khodabandeh Yalabadi, Ozlem Ozmen Garibay — *q-bio.QM*, 2025-08-20  
+  [abs](http://arxiv.org/abs/2508.15103v1) · [pdf](http://arxiv.org/pdf/2508.15103v1.pdf)  
+
+- **Fragment-Wise Interpretability in Graph Neural Networks via Molecule Decomposition and Contribution Analysis**  
+  Sebastian Musiał, Bartosz Zieliński, Tomasz Danel — *cs.LG*, 2025-08-20  
+  [abs](http://arxiv.org/abs/2508.15015v1) · [pdf](http://arxiv.org/pdf/2508.15015v1.pdf)  
 
 - **Multimodal Quantum Vision Transformer for Enzyme Commission Classification from Biochemical Representations**  
   Murat Isik, Mandeep Kaur Saggi, Humaira Gowher, Sabre Kais — *cs.LG*, 2025-08-20  
@@ -24,37 +52,9 @@ Tip: Edit `arxiv_digest.py` to change keywords/categories.
 
 - **NovoMolGen: Rethinking Molecular Language Model Pretraining**  
   Kamran Chitsaz, Roshan Balaji, Quentin Fournier, Nirav Pravinbhai Bhatt, Sarath Chandar — *cs.LG*, 2025-08-19  
-  [abs](http://arxiv.org/abs/2508.13408v1) · [pdf](http://arxiv.org/pdf/2508.13408v1.pdf)  
+  [abs](http://arxiv.org/abs/2508.13408v2) · [pdf](http://arxiv.org/pdf/2508.13408v2.pdf)  
 
 - **QUBODock: A Pip-Installable QUBO Tool for Ligand Pose Generation**  
   Pei-Kun Yang — *q-bio.BM*, 2025-08-18  
   [abs](http://arxiv.org/abs/2508.13014v1) · [pdf](http://arxiv.org/pdf/2508.13014v1.pdf)  
-
-- **FlowMol3: Flow Matching for 3D De Novo Small-Molecule Generation**  
-  Ian Dunn, David R. Koes — *cs.LG*, 2025-08-18  
-  [abs](http://arxiv.org/abs/2508.12629v1) · [pdf](http://arxiv.org/pdf/2508.12629v1.pdf)  
-
-- **Deep Learning Model for Amyloidogenicity Prediction using a Pre-trained Protein LLM**  
-  Zohra Yagoub, Hafida Bouziane — *cs.LG*, 2025-08-18  
-  [abs](http://arxiv.org/abs/2508.12575v1) · [pdf](http://arxiv.org/pdf/2508.12575v1.pdf)  
-
-- **ProtTeX-CC: Activating In-Context Learning in Protein LLM via Two-Stage Instruction Compression**  
-  Chuanliu Fan, Zicheng Ma, Jun Gao, Nan Yu, Jun Zhang, Ziqiang Cao, Yi Qin Gao, Guohong Fu — *cs.LG*, 2025-08-17  
-  [abs](http://arxiv.org/abs/2508.12212v1) · [pdf](http://arxiv.org/pdf/2508.12212v1.pdf)  
-
-- **Applied causality to infer protein dynamics and kinetics**  
-  Akashnathan Aranganathan, Eric R. Beyerle — *q-bio.BM*, 2025-08-16  
-  [abs](http://arxiv.org/abs/2508.12060v1) · [pdf](http://arxiv.org/pdf/2508.12060v1.pdf)  
-
-- **BConformeR: A Conformer Based on Mutual Sampling for Unified Prediction of Continuous and Discontinuous Antibody Binding Sites**  
-  Zhangyu You, Jiahao Ma, Hongzong Li, Ye-Fan Hu, Jian-Dong Huang — *q-bio.BM*, 2025-08-16  
-  [abs](http://arxiv.org/abs/2508.12029v1) · [pdf](http://arxiv.org/pdf/2508.12029v1.pdf)  
-
-- **Generative Co-Design of Antibody Sequences and Structures via Black-Box Guidance in a Shared Latent Space**  
-  Yinghua Yao, Yuangang Pan, Xixian Chen — *cs.LG*, 2025-08-15  
-  [abs](http://arxiv.org/abs/2508.11424v1) · [pdf](http://arxiv.org/pdf/2508.11424v1.pdf)  
-
-- **A Dataset for Distilling Knowledge Priors from Literature for Therapeutic Design**  
-  Haydn Thomas Jones, Natalie Maus, Josh Magnus Ludan, Maggie Ziyu Huan, Jiaming Liang, Marcelo Der Torossian Torres, Jiatao Liang, Zachary Ives, Yoseph Barash, Cesar de la Fuente-Nunez, Jacob R. Gardner, Mark Yatskar — *cs.LG*, 2025-08-14  
-  [abs](http://arxiv.org/abs/2508.10899v1) · [pdf](http://arxiv.org/pdf/2508.10899v1.pdf)  
 
