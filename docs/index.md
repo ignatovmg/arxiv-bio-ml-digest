@@ -1,84 +1,96 @@
 # Weekly arXiv Digest (ML × Computational Biology)
 
-*Updated: September 29, 2025 UTC*
+*Updated: October 06, 2025 UTC*
 
 > Filters: categories **q-bio.BM, q-bio.QM, cs.LG, stat.ML**, window **last 7 days**, keywords ∩ methods.
 
 Tip: Edit `arxiv_digest.py` to change keywords/categories.
 
-- **Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining**  
-  Boshra Ariguib, Mathias Niepert, Andrei Manolache — *cs.LG*, 2025-09-26  
-  [abs](http://arxiv.org/abs/2509.22468v1) · [pdf](http://arxiv.org/pdf/2509.22468v1.pdf)  
+- **Distilled Protein Backbone Generation**  
+  Liyang Xie, Haoran Zhang, Zhendong Wang, Wesley Tansey, Mingyuan Zhou — *cs.LG*, 2025-10-03  
+  [abs](http://arxiv.org/abs/2510.03095v1) · [pdf](http://arxiv.org/pdf/2510.03095v1.pdf)  
 
-- **SoDaDE: Solvent Data-Driven Embeddings with Small Transformer Models**  
-  Gabriel Kitso Gibberd, Jose Pablo Folch, Antonio Del Rio Chanona — *cs.LG*, 2025-09-26  
-  [abs](http://arxiv.org/abs/2509.22302v1) · [pdf](http://arxiv.org/pdf/2509.22302v1.pdf)  
+- **ContextFlow: Context-Aware Flow Matching For Trajectory Inference From Spatial Omics Data**  
+  Santanu Subhash Rathod, Francesco Ceccarelli, Sean B. Holden, Pietro Liò, Xiao Zhang, Jovan Tanevski — *cs.LG*, 2025-10-03  
+  [abs](http://arxiv.org/abs/2510.02952v1) · [pdf](http://arxiv.org/pdf/2510.02952v1.pdf)  
 
-- **MCGM: Multi-stage Clustered Global Modeling for Long-range Interactions in Molecules**  
-  Haodong Pan, Yusong Wang, Nanning Zheng, Caijui Jiang — *cs.LG*, 2025-09-26  
-  [abs](http://arxiv.org/abs/2509.22028v1) · [pdf](http://arxiv.org/pdf/2509.22028v1.pdf)  
+- **SAE-RNA: A Sparse Autoencoder Model for Interpreting RNA Language Model Representations**  
+  Taehan Kim, Sangdae Nam — *q-bio.BM*, 2025-10-03  
+  [abs](http://arxiv.org/abs/2510.02734v1) · [pdf](http://arxiv.org/pdf/2510.02734v1.pdf)  
 
-- **MolSpectLLM: A Molecular Foundation Model Bridging Spectroscopy, Molecule Elucidation, and 3D Structure Generation**  
-  Shuaike Shen, Jiaqing Xie, Zhuo Yang, Antong Zhang, Shuzhou Sun, Ben Gao, Tianfan Fu, Biqing Qi, Yuqiang Li — *cs.LG*, 2025-09-26  
-  [abs](http://arxiv.org/abs/2509.21861v1) · [pdf](http://arxiv.org/pdf/2509.21861v1.pdf)  
+- **Fine-Tuning Diffusion Models via Intermediate Distribution Shaping**  
+  Gautham Govind Anil, Shaan Ul Haque, Nithish Kannen, Dheeraj Nagaraj, Sanjay Shakkottai, Karthikeyan Shanmugam — *cs.LG*, 2025-10-03  
+  [abs](http://arxiv.org/abs/2510.02692v1) · [pdf](http://arxiv.org/pdf/2510.02692v1.pdf)  
 
-- **POLO: Preference-Guided Multi-Turn Reinforcement Learning for Lead Optimization**  
-  Ziqing Wang, Yibo Wen, William Pattie, Xiao Luo, Weimin Wu, Jerry Yao-Chieh Hu, Abhishek Pandey, Han Liu, Kaize Ding — *cs.LG*, 2025-09-26  
-  [abs](http://arxiv.org/abs/2509.21737v1) · [pdf](http://arxiv.org/pdf/2509.21737v1.pdf)  
+- **FLOWR.root: A flow matching based foundation model for joint multi-purpose structure-aware 3D ligand generation and affinity prediction**  
+  Julian Cremer, Tuan Le, Mohammad M. Ghahremanpour, Emilia Sługocka, Filipe Menezes, Djork-Arné Clevert — *q-bio.BM*, 2025-10-02  
+  [abs](http://arxiv.org/abs/2510.02578v1) · [pdf](http://arxiv.org/pdf/2510.02578v1.pdf)  
 
-- **DriftLite: Lightweight Drift Control for Inference-Time Scaling of Diffusion Models**  
-  Yinuo Ren, Wenhao Gao, Lexing Ying, Grant M. Rotskoff, Jiequn Han — *cs.LG*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.21655v1) · [pdf](http://arxiv.org/pdf/2509.21655v1.pdf)  
+- **Transformers Discover Molecular Structure Without Graph Priors**  
+  Tobias Kreiman, Yutong Bai, Fadi Atieh, Elizabeth Weaver, Eric Qu, Aditi S. Krishnapriyan — *cs.LG*, 2025-10-02  
+  [abs](http://arxiv.org/abs/2510.02259v1) · [pdf](http://arxiv.org/pdf/2510.02259v1.pdf)  
 
-- **Automated Machine Learning Pipeline for Training and Analysis Using Large Language Models**  
-  Adam Lahouari, Jutta Rogal, Mark E. Tuckerman — *cond-mat.mtrl-sci*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.21647v1) · [pdf](http://arxiv.org/pdf/2509.21647v1.pdf)  
+- **Constrained Adaptive Rejection Sampling**  
+  Paweł Parys, Sairam Vaidya, Taylor Berg-Kirkpatrick, Loris D'Antoni — *cs.AI*, 2025-10-02  
+  [abs](http://arxiv.org/abs/2510.01902v1) · [pdf](http://arxiv.org/pdf/2510.01902v1.pdf)  
 
-- **Shoot from the HIP: Hessian Interatomic Potentials without derivatives**  
-  Andreas Burger, Luca Thiede, Nikolaj Rønne, Varinia Bernales, Nandita Vijaykumar, Tejs Vegge, Arghya Bhowmik, Alan Aspuru-Guzik — *cs.LG*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.21624v1) · [pdf](http://arxiv.org/pdf/2509.21624v1.pdf)  
+- **From Supervision to Exploration: What Does Protein Language Model Learn During Reinforcement Learning?**  
+  Hanqun Cao, Hongrui Zhang, Junde Xu, Zhou Zhang, Lingdong Shen, Minghao Sun, Ge Liu, Jinbo Xu, Wu-Jun Li, Jinren Ni, Cesar de la Fuente-Nunez, Tianfan Fu, Yejin Choi, Pheng-Ann Heng, Fang Wu — *cs.LG*, 2025-10-02  
+  [abs](http://arxiv.org/abs/2510.01571v1) · [pdf](http://arxiv.org/pdf/2510.01571v1.pdf)  
 
-- **Contrastive Mutual Information Learning: Toward Robust Representations without Positive-Pair Augmentations**  
-  Micha Livne — *cs.LG*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.21511v1) · [pdf](http://arxiv.org/pdf/2509.21511v1.pdf)  
+- **Round-trip Reinforcement Learning: Self-Consistent Training for Better Chemical LLMs**  
+  Lecheng Kong, Xiyuan Wang, Yixin Chen, Muhan Zhang — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01527v1) · [pdf](http://arxiv.org/pdf/2510.01527v1.pdf)  
 
-- **ExMolRL: Phenotype-Target Joint Generation of De Novo Molecules via Multi-Objective Reinforcement Learning**  
-  Haotian Guo, Hui Liu — *cs.LG*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.21010v1) · [pdf](http://arxiv.org/pdf/2509.21010v1.pdf)  
+- **Predictive Modeling and Explainable AI for Veterinary Safety Profiles, Residue Assessment, and Health Outcomes Using Real-World Data and Physicochemical Properties**  
+  Hossein Sholehrasa, Xuan Xu, Doina Caragea, Jim E. Riviere, Majid Jaberi-Douraki — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01520v1) · [pdf](http://arxiv.org/pdf/2510.01520v1.pdf)  
 
-- **FracAug: Fractional Augmentation boost Graph-level Anomaly Detection under Limited Supervision**  
-  Xiangyu Dong, Xingyi Zhang, Sibo Wang — *cs.LG*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.20978v1) · [pdf](http://arxiv.org/pdf/2509.20978v1.pdf)  
+- **Pharmacophore-Guided Generative Design of Novel Drug-Like Molecules**  
+  Ekaterina Podplutova, Anastasia Vepreva, Olga A. Konovalova, Vladimir Vinogradov, Dmitrii O. Shkil, Andrei Dmitrenko — *q-bio.QM*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01480v1) · [pdf](http://arxiv.org/pdf/2510.01480v1.pdf)  
 
-- **Learning to Align Molecules and Proteins: A Geometry-Aware Approach to Binding Affinity**  
-  Mohammadsaleh Refahi, Bahrad A. Sokhansanj, James R. Brown, Gail Rosen — *cs.LG*, 2025-09-25  
-  [abs](http://arxiv.org/abs/2509.20693v1) · [pdf](http://arxiv.org/pdf/2509.20693v1.pdf)  
+- **Fine-tuning LLMs with variational Bayesian last layer for high-dimensional Bayesian optimization**  
+  Haotian Xiang, Jinwen Xu, Qin Lu — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01471v2) · [pdf](http://arxiv.org/pdf/2510.01471v2.pdf)  
 
-- **A Hierarchical Adaptive Diffusion Model for Flexible Protein-Protein Docking**  
-  Rujie Yin, Yang Shen — *cs.CE*, 2025-09-24  
-  [abs](http://arxiv.org/abs/2509.20542v1) · [pdf](http://arxiv.org/pdf/2509.20542v1.pdf)  
+- **BioVERSE: Representation Alignment of Biomedical Modalities to LLMs for Multi-Modal Reasoning**  
+  Ching-Huei Tsou, Michal Ozery-Flato, Ella Barkan, Diwakar Mahajan, Ben Shapira — *q-bio.QM*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01428v1) · [pdf](http://arxiv.org/pdf/2510.01428v1.pdf)  
 
-- **PGCLODA: Prompt-Guided Graph Contrastive Learning for Oligopeptide-Infectious Disease Association Prediction**  
-  Dayu Tan, Jing Chen, Xiaoping Zhou, Yansen Su, Chunhou Zheng — *cs.LG*, 2025-09-24  
-  [abs](http://arxiv.org/abs/2509.20290v1) · [pdf](http://arxiv.org/pdf/2509.20290v1.pdf)  
+- **Temporal Score Rescaling for Temperature Sampling in Diffusion and Flow Models**  
+  Yanbo Xu, Yu Wu, Sungjae Park, Zhizhuo Zhou, Shubham Tulsiani — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01184v1) · [pdf](http://arxiv.org/pdf/2510.01184v1.pdf)  
 
-- **LLMs for Bayesian Optimization in Scientific Domains: Are We There Yet?**  
-  Rushil Gupta, Jason Hartford, Bang Liu — *cs.LG*, 2025-09-24  
-  [abs](http://arxiv.org/abs/2509.21403v1) · [pdf](http://arxiv.org/pdf/2509.21403v1.pdf)  
+- **MorphGen: Controllable and Morphologically Plausible Generative Cell-Imaging**  
+  Berker Demirel, Marco Fumero, Theofanis Karaletsos, Francesco Locatello — *q-bio.QM*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.01298v1) · [pdf](http://arxiv.org/pdf/2510.01298v1.pdf)  
 
-- **Learnable Sampler Distillation for Discrete Diffusion Models**  
-  Feiyang Fu, Tongxian Guo, Zhaoqiang Liu — *cs.LG*, 2025-09-24  
-  [abs](http://arxiv.org/abs/2509.19962v1) · [pdf](http://arxiv.org/pdf/2509.19962v1.pdf)  
+- **MG2FlowNet: Accelerating High-Reward Sample Generation via Enhanced MCTS and Greediness Control**  
+  Rui Zhu, Xuan Yu, Yudong Zhang, Chen Zhang, Xu Wang, Yang Wang — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.00805v1) · [pdf](http://arxiv.org/pdf/2510.00805v1.pdf)  
 
-- **Improved Therapeutic Antibody Reformatting through Multimodal Machine Learning**  
-  Jiayi Xin, Aniruddh Raghu, Nick Bhattacharya, Adam Carr, Melanie Montgomery, Hunter Elliott — *cs.LG*, 2025-09-23  
-  [abs](http://arxiv.org/abs/2509.19604v1) · [pdf](http://arxiv.org/pdf/2509.19604v1.pdf)  
+- **Guiding Evolutionary Molecular Design: Adding Reinforcement Learning for Mutation Selection**  
+  Gaelle Milon-Harnois, Chaimaa Touhami, Nicolas Gutowski, Benoit Da Mota, Thomas Cauchy — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.00802v1) · [pdf](http://arxiv.org/pdf/2510.00802v1.pdf)  
 
-- **Discovery of Sustainable Refrigerants through Physics-Informed RL Fine-Tuning of Sequence Models**  
-  Adrien Goldszal, Diego Calanzone, Vincent Taboga, Pierre-Luc Bacon — *physics.chem-ph*, 2025-09-23  
-  [abs](http://arxiv.org/abs/2509.19588v1) · [pdf](http://arxiv.org/pdf/2509.19588v1.pdf)  
+- **GeoGraph: Geometric and Graph-based Ensemble Descriptors for Intrinsically Disordered Proteins**  
+  Eoin Quinn, Marco Carobene, Jean Quentin, Sebastien Boyer, Miguel Arbesú, Oliver Bent — *q-bio.BM*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.00774v1) · [pdf](http://arxiv.org/pdf/2510.00774v1.pdf)  
 
-- **A Foundation Chemical Language Model for Comprehensive Fragment-Based Drug Discovery**  
-  Alexander Ho, Sukyeong Lee, Francis T. F. Tsai — *cs.LG*, 2025-09-23  
-  [abs](http://arxiv.org/abs/2509.19586v1) · [pdf](http://arxiv.org/pdf/2509.19586v1.pdf)  
+- **Diffusion Alignment as Variational Expectation-Maximization**  
+  Jaewoo Lee, Minsu Kim, Sanghyeok Choi, Inhyuck Song, Sujin Yun, Hyeongyu Kang, Woocheol Shin, Taeyoung Yun, Kiyoung Om, Jinkyoo Park — *cs.LG*, 2025-10-01  
+  [abs](http://arxiv.org/abs/2510.00502v1) · [pdf](http://arxiv.org/pdf/2510.00502v1.pdf)  
+
+- **AReUReDi: Annealed Rectified Updates for Refining Discrete Flows with Multi-Objective Guidance**  
+  Tong Chen, Yinuo Zhang, Pranam Chatterjee — *cs.LG*, 2025-09-30  
+  [abs](http://arxiv.org/abs/2510.00352v2) · [pdf](http://arxiv.org/pdf/2510.00352v2.pdf)  
+
+- **Flow Autoencoders are Effective Protein Tokenizers**  
+  Rohit Dilip, Evan Zhang, Ayush Varshney, David Van Valen — *cs.LG*, 2025-09-30  
+  [abs](http://arxiv.org/abs/2510.00351v1) · [pdf](http://arxiv.org/pdf/2510.00351v1.pdf)  
+
+- **Commutative algebra neural network reveals genetic origins of diseases**  
+  JunJie Wee, Faisal Suwayyid, Mushal Zia, Hongsong Feng, Yuta Hozumi, Guo-Wei Wei — *q-bio.QM*, 2025-09-30  
+  [abs](http://arxiv.org/abs/2509.26566v1) · [pdf](http://arxiv.org/pdf/2509.26566v1.pdf)  
 
